@@ -43,7 +43,7 @@ Architektúra Apache Spark je založená na štruktúre master-slave, kde driver
 
 #### Driver Program
 
-**Driver Program** je "master" v master-slave architektúre, ktorý spúšťa hlavnú funkciu a vytvára `SparkContext`, slúžiaci ako vstupný bod ku všetkým funkcionalitám Spark. Komunikuje s Cluster Managerom na dohľad nad jobmi, rozdeľuje job na tasky a priraďuje tieto tasky worker nodes.
+**Driver Program** je "master" v master-slave architektúre, ktorý spúšťa hlavnú funkciu a vytvára SparkContext, slúžiaci ako vstupný bod ku všetkým funkcionalitám Spark. Komunikuje s Cluster Managerom na dohľad nad jobmi, rozdeľuje job na tasky a priraďuje tieto tasky worker nodes.
 
 #### Cluster Manager
 
@@ -51,7 +51,7 @@ Architektúra Apache Spark je založená na štruktúre master-slave, kde driver
 
 #### Executors alebo Worker Nodes
 
-**Executors** alebo **Worker Nodes** sú "slaves" zodpovední za dokončenie pridelených taskov. Spracovávajú tasky na rozdelených RDD a vracajú výsledok späť do `SparkContext`.
+**Executors** alebo **Worker Nodes** sú "slaves" zodpovední za dokončenie pridelených taskov. Spracovávajú tasky na rozdelených RDD a vracajú výsledok späť do SparkContext.
 
 ## Prípady Použitia
 
